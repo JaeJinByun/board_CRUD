@@ -92,8 +92,9 @@
 	        |-- style_board.css		[view style]
 	        |-- script.js			[event method]
 	
-#
-**사용 Library version**
+```
+	
+# 사용 Library version
 	
 -   **IDE**  : Eclipse Java EE 4.22.2 (Oxygen.2 Release)
 -   **JDK**: Java 1.8
