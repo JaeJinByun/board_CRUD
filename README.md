@@ -78,17 +78,17 @@
 	        |   `-- action      		 [글수정버튼, 글삭제버튼, 답글버튼, 목록버튼]
 	        |      |-- modifyForm.jsp	 [비밀번호확인창]
 	        |      |   `-- modifyView.java	 [글수정화면]
-		    	|	     |	   `-- modifyPro.java <--->  DB [수정처리]        
-		      |      |-- deleteForm.jsp  [비밀번호 확인창]
-			    |	     |   `-- deletePro.jsp <------> DB [삭제처리]
+		|      |	   `-- modifyPro.java <--->  DB [수정처리]        
+		|      |-- deleteForm.jsp  [비밀번호 확인창]
+		|      |   `-- deletePro.jsp <------> DB [삭제처리]
 	        |      |-- writeForm.jsp  	 [답글작성화면]
 	        |          `-- writePro.jsp  <------> DB [답글처리]
 	        |              
 	        |-- writeForm.jsp 		 [글작성 클릭시]
 	        |   `-- writePro.jsp <----> DB 	 [글작성처리] 
 	        |     
-		    	| 
-		    	|-- setting.jsp 	[전역변수 저장소]
+		| 
+		|-- setting.jsp 		[전역변수 저장소]
 	        |-- style_board.css		[view style]
 	        |-- script.js			[event method]
 	
